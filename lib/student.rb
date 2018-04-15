@@ -45,10 +45,10 @@ class Student
     end
   end
 
-  def self.create(name:, grade:)
+  def self.create(name, grade)
     student = self.new(name, grade)
     student.save
-    student
+    #sstudent
   end
 
   #row is an array of id, name, and grade
