@@ -51,7 +51,6 @@ class Student
     student.save
     binding.pry
     student
-    binding.pry
   end
 
   #row is an array of id, name, and grade
