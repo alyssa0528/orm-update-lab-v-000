@@ -52,7 +52,7 @@ class Student
     student
   end
 
-  #row is an array
+  #row is an array of id, name, and grade
   def self.new_from_db(row)
     new_student = self.new
     new_student.id = row[0]
