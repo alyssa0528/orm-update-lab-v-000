@@ -50,6 +50,7 @@ class Student
     student = self.new(name, grade)
     student.save
     student
+    binding.pry
   end
 
   #row is an array of id, name, and grade
